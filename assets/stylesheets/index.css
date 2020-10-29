@@ -1,0 +1,413 @@
+/*=============================== Resets the margin and padding to 0 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 100%;
+}
+
+body{
+    width: 100%;
+}
+
+/*=============================== header css */
+
+header{
+    z-index: 100;
+    position: fixed;
+    padding: 4px 15px 2px 15px;
+    background-color: white;
+    top: 0;
+    width: 100vw;
+    height: 43px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    background-origin: 1px 1px 1px rgb(226, 226, 226);
+}
+
+header svg{
+    height: 16px;
+}
+
+.headerInfo{
+    margin: 0 15px 0 15px;
+    padding: 0 15px 0 15px;
+    display: flex;
+    width: 230px;
+    height: auto;
+    color: black;
+}
+
+.headerInfo svg{
+    margin: 0 5px 0 5px;
+}
+
+.css-nuvmzp{
+    width: 150px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.headerInfo a:hover{
+    text-decoration: underline;
+}
+
+.headerLogo{
+    width: 80%;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerLogo a svg{
+    width: 195px;
+    height: 26px;
+}
+
+.headerAccount{
+   margin: 0 15px 0 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 202.09375px;
+    height: 33px;
+}
+
+.headerAccount button{
+    margin: 0 5px 0 5px;
+    width: 119.25px;
+    height: 32px;
+    color: white;
+    background-color: rgb(86, 123, 149);
+    border: 1px solid rgb(50, 104, 145);
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.headerAccount button:hover{
+    background-color: rgb(50, 104, 145);
+    transition-duration: 0.6s;
+}
+
+.headerAccount div{
+    margin: 0 5px 0 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 57.84375px;
+    height: 12px;
+}
+
+.headerAccount div h4{
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: rgb(18, 18, 18);
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+
+}
+
+.headerAccount div svg{
+    margin: 0 0 2px 6px;
+    width: 9px;
+    height: 5px;
+}
+
+/*=============================== CSS for the article */
+
+.nytArticle{
+    margin: 100px auto 100px auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nytArticle strong{
+    font-size: 2.5rem;
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.nytArticle p{
+    width: 600px;
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+    color: rgb(51, 51, 51);
+    line-height: 30px;
+    text-align: left;
+}
+
+.nytArticle p a{
+    color: rgb(50, 104, 145);
+}
+
+.nytArticle p a:hover{
+    text-decoration: none;
+}
+
+.articleImg{
+    margin-bottom: 50px;
+    width: 945px;
+}
+
+.articleImg img{
+    width: 100%;
+    height: auto;
+}
+
+.articleImg h4{
+   color: rgb(102, 102, 102);
+   font-size: 0.9375rem;
+   font-weight: normal;
+}
+
+.articleImg h5{
+    color: rgb(136, 136, 136);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.authorDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+    height: 69px;
+    margin-bottom: 20px;
+
+}
+
+.authorDetails strong, div h5{
+    font-size: 0.9375rem;
+    color: rgb(51, 51, 51);
+    font-style: normal;
+}
+
+.authorDetails strong a{
+    text-decoration: underline;
+    text-decoration-color: rgb(136, 136, 136)
+}
+}
+
+.authorDetails div h5{
+    font-size: 0.8125rem;
+    font-weight: 500;
+}
+
+.authorDetails div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.authorDetails div ul{
+    display: flex;
+}
+
+.authorDetails div ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 16px;
+
+}
+
+
+.timesAD{
+    margin: 10px 0 10px 0;
+    border-top: 1px solid rgb(226, 226, 226);
+    border-bottom: 1px solid rgb(226, 226, 226);
+    height: 50px;
+    width: 400px;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+}
+
+.timesAD a{
+    color: rgb(50, 104, 145);
+    cursor: pointer;
+}
+
+
+.editorPicks{
+    position: absolute;
+    right: 5%;
+    width: 200px;
+    height: 200px;
+    text-align: left;
+}
+
+.editorPicks h4{
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.editorArticle{
+    width: 210px;
+    height: 77px;
+    color: rgb(51, 51, 51);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.editorArticle:hover{
+    text-decoration: underline;
+}
+
+.editorArticle img{
+    height: 75px;
+    width: 75px;
+}
+
+.editorArticle h5{
+    width: 125px;
+    margin-left:10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+    font-family: nyt-cheltenham-small, georgia, "times new roman";
+}
+
+.appleAd{
+    width: 100%;
+    cursor: pointer;
+}
+
+.abaig{
+    text-align: left;
+    width: 600px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    margin: 20px;
+}
+
+.bigContainer{
+    margin: 20px 0 20px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inflationTitle{
+    width: 80%;
+    text-justify: left;
+}
+
+.inflationTitle strong{
+    font-size: 20px;
+}
+
+.inflationTitle p{
+    font-size: 0.875rem;
+    width: 75%;
+    color: rgb(102, 102, 102);
+    line-height: 18px;
+}
+
+.inflationContainer{
+    float: right;
+    width: 85%;
+    height: auto;
+    border-radius: 2.5px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 50%);
+}
+
+.inflationContainer img{
+    z-index: -1;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+}
+
+.inflationText{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 85%;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-top: 200px;
+}
+
+.inflationText p{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.inflationText strong{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.inflationAuthor{
+    padding-top: 10px;
+    margin-left: 40px;
+    align-self: flex-start;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    width: 30%;
+    color: rgb(51, 51, 51);
+    font-family: nyt-franklin, arial, helvetica, sans-serif;
+    border-top: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+/*=============================== CSS FOR THE FOOTER AT THE BASE OF THE SCREEN */
+
+footer{
+    z-index: 10;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    height: 55px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer div{
+    position: absolute;
+    right: 5%;
+}
